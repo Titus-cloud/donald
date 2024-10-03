@@ -4,7 +4,28 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: aqua;
+
+.col-container {
+  background-color: grey;
+}
+.col-container .container {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: center;
+  flex-wrap: nowrap;
+  flex-direction: center;
+}
+.col-container .container ul {
+  list-style-type: none;
+  margin: 0 10px;
+}
+.col-container .container a {
+  color: black;
+  text-decoration: none;
+}
+.col-container .container a:hover {
+  color: white;
+  background-color: yellowgreen;
 }

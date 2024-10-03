@@ -1,0 +1,25 @@
+@use '../../utilities/mixin' as *;
+
+.col-container{
+  background-color: grey;
+  .container{
+    align-items: center;
+  @include flex(space-around, center, center);
+
+
+  ul{
+    list-style-type: none;
+    margin: 0 10px;
+  }
+  
+  a{
+    color: black;
+    text-decoration: none;
+  }
+  a{
+    // display: inline-block;
+    &:hover{
+      color: white;
+      background-color: yellowgreen;
+    }}
+}}
